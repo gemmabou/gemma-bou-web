@@ -45,6 +45,7 @@ html {
     h1, h2, h3, h4, h5 {
         i {
             @include light-italic-font;
+            font-style: normal;
         }
     }
     
@@ -60,6 +61,7 @@ html {
     p {
         i {
             @include medium-italic-font;
+            font-style: normal;
         }
     }
 
