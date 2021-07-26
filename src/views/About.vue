@@ -107,7 +107,7 @@ export default class About extends Vue {
     },
     {
       source: "/img/logos/creative-cloud-logo.png",
-      alt: "Creative Cloud",
+      alt: "Adobe Suit",
     },
     {
       source: "/img/logos/zeplin-logo.png",
@@ -147,7 +147,7 @@ export default class About extends Vue {
     },
     {
       source: "/img/logos/gsuite-logo.png",
-      alt: "G suite",
+      alt: "Google Suite",
     },
     {
       source: "/img/logos/dropbox-logo.png",
@@ -183,7 +183,7 @@ export default class About extends Vue {
     },
     {
       source: "/img/logos/github-logo.png",
-      alt: "Gihub",
+      alt: "Github",
     },
     {
       source: "/img/logos/firebase-logo.png",
