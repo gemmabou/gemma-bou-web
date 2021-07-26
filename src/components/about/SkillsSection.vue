@@ -1,7 +1,7 @@
 <template>
   <bou-row class="main-section" verticalAlign="top">
     <bou-col :md="5">
-      <h2>UX skills</h2>
+      <h2>UX Skills</h2>
       <ul>
         <li v-for="(item, index) in uxSkills" :key="index">
             <b>{{item.title + ": "}}</b>
@@ -12,7 +12,7 @@
     <bou-col :md="1" />
     <bou-col :md="1" class="bordered-left" />
     <bou-col :md="5">
-      <h2>UI skills</h2>
+      <h2>UI Skills</h2>
       <ul>
         <li v-for="(item, index) in uiSkills" :key="index">
             <b>{{item.title + ": "}}</b>
