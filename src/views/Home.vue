@@ -8,15 +8,15 @@
       <template v-slot:description>
         <p>
           I’m a product designer living in Madrid with
-          <b class="uppercase">5 years of experience</b> in web and graphic
-          design, who can efficiently research, wireframe, and prototype a
+          <b class="uppercase">5 years experience</b> in web and graphic
+          design, who can efficiently <i>research, wireframe, and prototype</i> a
           unique user experience.
         </p>
         <p>
           My background gives me the perspective to understand that I’m not a
           screen designer anymore,
-          <i>I’m a design maker and problem solver</i>, focused on user and
-          business needs.
+          I’m a <span class="uppercase">design maker and problem solver</span>, focused on <i>user and
+          business</i> needs.
         </p>
       </template>
       <template v-slot:image>
@@ -71,7 +71,7 @@
         <p class="body3">
           Using a <b class="uppercase">Design Sprint</b> methodology, I have
           created this app finding new needs in the current food app market.
-          Analyzing the competence, extracting value insights doing
+          Analyzing the <i>competence</i>, extracting value insights doing
           <i>user research</i> and organizing all the information with a useful
           <i>architecture</i>, I have designed a
           <b class="uppercase">new experience</b> for buying fresh products.
@@ -99,7 +99,7 @@
           <b class="uppercase">working for external clients</b>, I decided to
           create and promote a Design Studio called Bocacalle with a business
           partner. Since that moment, we have been working in
-          <i><b>offer digital solutions</b></i> for little and medium business.
+          <i>offer digital solutions</i> for little and medium business.
         </p>
       </template>
       <template v-slot:image>
