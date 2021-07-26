@@ -89,12 +89,7 @@ export default class About extends Vue {
     },
     {
       title: "Design System",
-      description: "Desk Research, Benchmark.",
-    },
-    {
-      title: "User Research",
-      description:
-        "Self taught of creating and designing a Design System. Good knowledge of Atomic Design and Material Design, UI Kits and Style Guides.",
+      description: "self taught of creating and designing a Design System. Good knowledge of Atomic Design and Material Design, UI Kits and Style Guides.",
     },
     {
       title: "Visual Design",
