@@ -1,0 +1,128 @@
+@import "../variables.scss";
+
+// Font type
+
+@mixin regular-font {
+    font-family: "Restora";
+}
+
+@mixin light-font {
+    font-family: "RestoraLight";
+}
+
+@mixin extra-light-font {
+    font-family: "RestoraExtraLight";
+}
+
+@mixin light-italic-font {
+    font-family: "RestoraLightItalic";
+}
+
+// Text styles
+
+@mixin heading-1 {
+    @include light-font;
+
+    font-size: $xx-large-font-size;
+    letter-spacing: $tiny-letter-spacing;
+    line-height: $xx-large-line-height;
+}
+
+@mixin heading-2 {
+    @include regular-font;
+
+    font-size: $x-large-font-size;
+    letter-spacing: $small-letter-spacing;
+    line-height: $x-large-line-height;
+}
+
+@mixin heading-3 {
+    @include regular-font;
+
+    font-size: $large-font-size;
+    line-height: $large-line-height;
+}
+
+@mixin heading-4 {
+    @include regular-font;
+
+    font-size: $medium-font-size;
+    line-height: $medium-line-height;
+}
+
+@mixin heading-5 {
+    @include regular-font;
+
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+}
+
+@mixin subtitle {
+    @include light-italic-font;
+
+    font-size: $large-font-size;
+    line-height: $large-line-height;
+}
+
+@mixin subtitle-2 {
+    @include light-italic-font;
+
+    font-size: $medium-font-size;
+    line-height: $medium-line-height;
+}
+
+@mixin subtitle-3 {
+    @include light-italic-font;
+
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+}
+
+@mixin body-1 {
+    @include extra-light-font;
+
+    font-size: $x-large-font-size;
+    line-height: $x-large-line-height;
+    letter-spacing: $small-letter-spacing;
+}
+
+@mixin body-2 {
+    @include extra-light-font;
+
+    font-size: $large-font-size;
+    line-height: $large-line-height;
+}
+
+@mixin body-3 {
+    @include extra-light-font;
+
+    font-size: $medium-font-size;
+    line-height: $medium-line-height;
+}
+
+@mixin caption-1 {
+    @include regular-font;
+
+    font-size: $large-font-size;
+    line-height: $large-line-height;
+    letter-spacing: $large-letter-spacing;
+    text-transform: uppercase;
+}
+
+@mixin caption-2 {
+    @include regular-font;
+
+    font-size: $medium-font-size;
+    line-height: $medium-line-height;
+    letter-spacing: $large-letter-spacing;
+    text-transform: uppercase;
+}
+
+@mixin caption-3 {
+    @include regular-font;
+
+    font-size: $small-font-size;
+    line-height: $small-line-height;
+    letter-spacing: $medium-letter-spacing;
+    text-transform: uppercase;
+}

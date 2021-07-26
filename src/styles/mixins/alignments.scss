@@ -1,0 +1,45 @@
+// vertical align mixins
+
+@mixin vertical-aligns {
+    &.align-top {
+        align-items: flex-start;
+    }
+    &.align-center {
+        align-items: center;
+    }
+    &.align-bottom {
+        align-items: flex-end;
+    }
+}
+
+// content justification;
+
+@mixin content-justifications {
+    &.justify-start {
+        justify-content: flex-start;
+    }
+    &.justify-center {
+        justify-content: center;
+    }
+    &.justify-end {
+        justify-content: flex-end;
+    }
+    &.justify-space-around {
+        justify-content: space-around;
+    }
+    &.justify-space-between {
+        justify-content: space-between;
+    }
+}
+
+// flex directions
+
+@mixin flex-directions {
+    &.flex-direction-row{
+        flex-direction: row;
+    }
+
+    &.flex-direction-column {
+        flex-direction: column;
+    }
+}

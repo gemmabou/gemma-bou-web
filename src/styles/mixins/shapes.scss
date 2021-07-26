@@ -1,0 +1,232 @@
+@import "../variables.scss";
+
+@mixin shapes {
+    z-index: 2;
+
+    &.shaped {
+        
+        &.shape-w {
+            border-radius: 50% 0 0 50%;
+        }
+
+        &.shape-e {
+            border-radius: 0 50% 50% 0;
+        }
+
+        &.shape-n {
+            border-radius: 50% 50% 0 0;
+        }
+
+        &.shape-ne {
+            border-radius: 50% 50% 50% 0;
+        }
+
+        &.shape-nw {
+            border-radius: 50% 50% 0 50%;
+        }
+
+        &.shape-s {
+            border-radius: 0 0 50% 50%;
+        }
+
+        &.shape-sw {
+            border-radius: 50% 0 50% 50%;
+        }
+
+        &.shape-se {
+            border-radius: 0 50% 50% 50%;
+        }
+
+        &.shape-nwse {
+            border-radius: 50% 0 50% 0;
+        }
+
+        &.shape-nesw {
+            border-radius: 0 50% 0 50%;
+        }
+    }
+}
+
+$transitionOffset: $offset-margin/4;
+
+@mixin border-shapes {
+    position: relative;
+
+    &:after {
+        transition: $hoverTransition;
+    }
+
+    &.border-offset-nw {
+        &:after {
+            transform: translate(-$offset-margin, -$offset-margin);
+        }
+        &:hover {
+            &:after {
+                transform: translate(-$offset-margin + $transitionOffset, -$offset-margin + $transitionOffset);
+            }
+        }
+    }
+
+    &.border-offset-ne {
+        &:after {
+            transform: translate($offset-margin, -$offset-margin);
+        }
+        &:hover {
+            &:after {
+                transform: translate($offset-margin + $transitionOffset, -$offset-margin + $transitionOffset);
+            }
+        }
+    }
+
+    &.border-offset-sw {
+        &:after {
+            transform: translate(-$offset-margin, $offset-margin);
+        }
+        &:hover {
+            &:after {
+                transform: translate(-$offset-margin + $transitionOffset, $offset-margin + $transitionOffset);
+            }
+        }
+    }
+
+    &.border-offset-se {
+        &:after {
+            transform: translate($offset-margin, $offset-margin);
+        }
+        &:hover {
+            &:after {
+                transform: translate($offset-margin + $transitionOffset, $offset-margin + $transitionOffset);
+            }
+        }
+    }
+
+    &.shape-w {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 0 0 50%;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-e {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 0 50% 50% 0;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-n {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 50% 0 0;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-ne {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 50% 50% 0;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-nw {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 50% 0 50%;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-s {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 0 0 50% 50%;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-sw {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 0 50% 50%;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-se {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 0 50% 50% 50%;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-nwse {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 50% 0 50% 0;
+            border: $normal-border;
+        }
+    }
+
+    &.shape-nesw {
+        &:after {
+            content: "";
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            border-radius: 0 50% 0 50%;
+            border: $normal-border;
+        }
+    }
+}

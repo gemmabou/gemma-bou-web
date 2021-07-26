@@ -1,0 +1,48 @@
+@import '../mixins.scss';
+
+html {
+    body {
+        @include body-2;
+        margin: 0px;
+        color: $neutral90;
+    }
+
+    p, ul {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+    }
+
+    h1 {
+        @include heading-1;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    h2 {
+        @include heading-2;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    h3 {
+        @include heading-3;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    h4 {
+        @include heading-4;
+        margin: 0;
+        font-weight: normal;
+    }
+
+    h4 {
+        @include heading-5;
+        margin: 0;
+        font-weight: normal;
+    }
+    
+    li {
+        @include body-2;
+    }
+}

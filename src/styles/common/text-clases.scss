@@ -1,0 +1,65 @@
+@import "../mixins.scss";
+
+.caption1 {
+    @include caption-1;
+}
+
+.caption2 {
+    @include caption-2;
+}
+
+.caption3 {
+    @include caption-3;
+}
+
+.body1 {
+    @include body-1;
+}
+
+.body2 {
+    @include body-2;
+}
+
+.body3 {
+    @include body-3;
+}
+
+.heading1 {
+    @include heading-1;
+}
+
+.heading2 {
+    @include heading-2;
+}
+
+.heading3 {
+    @include heading-3;
+}
+
+.heading4 {
+    @include heading-4;
+}
+
+.heading5 {
+    @include heading-5;
+}
+
+.subtitle {
+    @include subtitle;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}

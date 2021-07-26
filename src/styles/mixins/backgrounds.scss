@@ -1,0 +1,75 @@
+@import "../variables.scss";
+
+// Mixin to operate with Background color and gradient type
+
+@mixin backgrounds {
+    &.background-primary1 {
+        background-color: $primary1;
+
+        &.gradient-linear {
+            background-color: transparent;
+            background-image: $primary1-linear-gradient;
+        }
+
+        &.gradient-radial {
+            background-color: transparent;
+            background-image: $primary1-radial-gradient;
+        }
+    }
+
+    &.background-primary2 {
+        background-color: $primary2;
+
+        &.gradient-linear {
+            background-color: transparent;
+            background-image: $primary2-linear-gradient;
+        }
+
+        &.gradient-radial {
+            background-color: transparent;
+            background-image: $primary2-radial-gradient;
+        }
+    }
+
+    &.background-primary3 {
+        background-color: $primary3;
+
+        &.gradient-linear {
+            background-color: transparent;
+            background-image: $primary3-linear-gradient;
+        }
+
+        &.gradient-radial {
+            background-color: transparent;
+            background-image: $primary3-radial-gradient;
+        }
+    }
+
+    &.background-primary4 {
+        background-color: $primary4;
+
+        &.gradient-linear {
+            background-color: transparent;
+            background-image: $primary4-linear-gradient;
+        }
+
+        &.gradient-radial {
+            background-color: transparent;
+            background-image: $primary4-radial-gradient;
+        }
+    }
+
+    &.background-primary5 {
+        background-color: $primary5;
+
+        &.gradient-linear {
+            background-color: transparent;
+            background-image: $primary5-linear-gradient;
+        }
+
+        &.gradient-radial {
+            background-color: transparent;
+            background-image: $primary5-radial-gradient;
+        }
+    }
+}

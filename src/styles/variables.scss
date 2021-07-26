@@ -1,0 +1,99 @@
+// Colors
+$neutral00: #ffffff;
+$neutral10: #e6e6e6;
+$neutral20: #cccccc;
+$neutral40: #999999;
+$neutral70: #4d4d4d;
+$neutral90: #1a1a1a;
+
+$primary1: #cfe8db;
+$primary2: #d1dbf4;
+$primary3: #c5e6ee;
+$primary4: #ede1c2;
+$primary5: #efefef;
+
+// Opacities
+$disabled-opacity: 0.65;
+
+// Shadows
+$shadow-color: $neutral90;
+$soft-shadow-alpha: 0.22;
+$strong-shadow-alpha: 0.26;
+
+$soft-shadow-color: rgba($shadow-color, $soft-shadow-alpha);
+$strong-shadow-color: rgba($shadow-color, $strong-shadow-alpha);
+
+$soft-shadow: 1.875rem 1.875rem 6.25rem $soft-shadow-color;
+$strong-shadow: 3.75rem 3.75rem 8.75rem $strong-shadow-color;
+
+// Borders
+$border-color: $neutral90;
+$border-size: 0.063rem;
+$normal-border: $border-size solid $border-color;
+
+// Gradients
+$primary1-linear-gradient: linear-gradient(180deg, $primary1 0%, $primary5 100%);
+$primary2-linear-gradient: linear-gradient(180deg, $primary2 0%, $primary5 100%);
+$primary3-linear-gradient: linear-gradient(180deg, $primary3 0%, $primary5 100%);
+$primary4-linear-gradient: linear-gradient(180deg, $primary4 0%, $primary5 100%);
+$primary5-linear-gradient: linear-gradient(180deg, $primary5 0%, $neutral00 100%);
+
+$overlay-gradient: linear-gradient(180deg, $primary1 0%, $primary5 100%);
+
+$primary1-radial-gradient: radial-gradient(50% 50% at 50% 50%, $primary1 0%, $primary5 100%);
+$primary2-radial-gradient: radial-gradient(50% 50% at 50% 50%, $primary2 0%, $primary5 100%);
+$primary3-radial-gradient: radial-gradient(50% 50% at 50% 50%, $primary3 0%, $primary5 100%);
+$primary4-radial-gradient: radial-gradient(50% 50% at 50% 50%, $primary4 0%, $primary5 100%);
+$primary5-radial-gradient: radial-gradient(50% 50% at 50% 50%, $primary5 0%, $neutral00 100%);
+
+// Font sizes
+$xx-large-font-size: 3rem;
+$x-large-font-size: 2.25rem;
+$large-font-size: 1.13rem;
+$medium-font-size: 1rem;
+$small-font-size: 0.7rem;
+
+// Line heights
+$xx-large-line-height: 3.5rem;
+$x-large-line-height: 2.75rem;
+$large-line-height: 2.25rem;
+$medium-line-height: 1.75rem;
+$small-line-height: 1rem;
+
+// Letter spacing
+$large-letter-spacing: 0.05em;
+$medium-letter-spacing: 0.01em;
+$small-letter-spacing: -0.03em;
+$tiny-letter-spacing: -0.05em;
+
+// Font color
+$light-font-color: $neutral20;
+$medium-font-color: $neutral40;
+$dark-font-color: $neutral90;
+
+// Margins
+$container-y-margin: 0.625rem;
+$container-x-margin: 0.938rem;
+$grip-gap: 1rem;
+$offset-margin: 2rem;
+
+// Responsive breakpoints
+// types: xs / sm / md / lg
+$xs-to-sm-breakpoint: 768px;
+$sm-to-md-breakpoint: 992px;
+$md-to-lg-breakpoint: 1200px;
+$lg-to-xl-breakpoint: 1920px;
+
+$container-fluent-width: 90%;
+$container-sm-width: 750px;
+$container-md-width: 970px;
+$container-lg-width: 1170px;
+$container-xl-width: 1490px;
+
+// Fixed heights
+$navbarHeight: 7.375rem;
+$navbarHeightXS: $navbarHeight / 3 * 2;
+$footerHeight: 4.375rem;
+
+// Effects
+$hoverTransition: 200ms;

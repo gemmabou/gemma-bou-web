@@ -1,0 +1,13 @@
+@import "../variables.scss";
+
+// Mixin to operate with shadows
+
+@mixin shadows {
+    &.shadow-soft {
+        box-shadow: $soft-shadow;
+    }
+
+    &.shadow-strong {
+        box-shadow: $strong-shadow;
+    }
+}
