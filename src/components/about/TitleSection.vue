@@ -1,11 +1,11 @@
 <template>
   <!-- Desktop layout (screenWidht > sm) -->
   <bou-row v-if="!isMobileResolution" :spaced="true" :vertical-align="'center'">
-    <bou-col :md="3">
+    <bou-col :md="4" :lg="3">
       <slot name="image"></slot>
     </bou-col>
-    <bou-col :md="1" />
-    <bou-col :md="8">
+    <bou-col :md="1" :lg="1"/>
+    <bou-col :md="7" :lg="8">
       <slot name="title"></slot>
 
       <bou-row :spaced="true">
@@ -34,8 +34,8 @@
     <bou-col :xs="12" class="text-center">
       <bou-cv-button />
     </bou-col>
-    <bou-col :xs="2" />
-    <bou-col :xs="8" class="image-container-xs">
+    <bou-col :xs="1" :sm="2" />
+    <bou-col :xs="10" :sm="8" class="image-container-xs">
       <slot name="image"></slot>
     </bou-col>
   </bou-row>

@@ -67,4 +67,11 @@ html {
         margin-top: $section-margin;
         margin-bottom: $section-margin;
     }
+
+    @media (max-width: $sm-to-md-breakpoint) {
+        .main-section {
+            margin-top: $section-margin-xs;
+            margin-bottom: $section-margin-xs;
+        }
+    }
 }

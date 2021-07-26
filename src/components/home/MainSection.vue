@@ -78,11 +78,10 @@
         />
       </p>
     </bou-col>
-    <bou-col :xs="2" />
-    <bou-col :xs="8">
+    <bou-col :xs="1" :sm="2" />
+    <bou-col :xs="10" :sm="8">
       <slot name="imageXS"></slot>
     </bou-col>
-    <bou-col :xs="2" />
   </bou-row>
 </template>
 

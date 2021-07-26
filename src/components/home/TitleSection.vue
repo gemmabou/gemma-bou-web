@@ -20,8 +20,8 @@
     <bou-col :xs="12">
       <slot name="description"></slot>
     </bou-col>
-    <bou-col :xs="2" />
-    <bou-col :xs="8" class="image-container-xs">
+    <bou-col :xs="1" :sm="2" />
+    <bou-col :xs="10" :sm="8" class="image-container-xs">
       <slot name="image"></slot>
     </bou-col>
   </bou-row>
