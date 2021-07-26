@@ -1,23 +1,17 @@
 <template>
   <!-- Desktop layout (screenWidht > sm) -->
-  <bou-row v-if="!isMobileResolution" :spaced="true" :vertical-align="'center'">
+  <bou-row class="title-section" v-if="!isMobileResolution" :spaced="true" :vertical-align="'center'">
     <bou-col :md="6">
-      <bou-row :spaced="true">
-        <bou-col :xs="8">
-          <h1>
-            <slot name="title"></slot>
-          </h1>
-        </bou-col>
-      </bou-row>
+      <slot name="title"></slot>
       <slot name="description"></slot>
     </bou-col>
     <bou-col :md="1" />
-    <bou-col :md="5">
+    <bou-col :md="4">
       <slot name="image"></slot>
     </bou-col>
   </bou-row>
   <!-- Mobile layout (screenWidht < sm) -->
-  <bou-row v-else :spaced="true" :vertical-align="'top'">
+  <bou-row v-else :spaced="true" class="title-section" :vertical-align="'top'">
     <bou-col :xs="12">
       <h1>
         <slot name="title"></slot>
@@ -52,6 +46,10 @@ export default class TitleSection extends Vue {
 </script>
 
 <style lang="scss" scoped>
+.title-section {
+  margin-bottom: $section-margin;
+}
+
 .image-container-xs {
   margin-top: 2.5rem;
 }

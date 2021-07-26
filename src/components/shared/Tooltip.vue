@@ -71,7 +71,7 @@ export default class Tooltip extends Vue {
     @include shadows;
 
     position: absolute;
-    z-index: 1;
+    z-index: 3;
 
     visibility: hidden;
     margin-bottom: 0.4rem;

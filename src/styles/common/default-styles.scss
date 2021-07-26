@@ -43,6 +43,22 @@ html {
     }
     
     li {
-        @include body-2;
+        @include body-3;
+    }
+
+    b {
+        @include medium-font;
+        font-weight: normal;
+    }
+
+    p {
+        i {
+            @include medium-italic-font;
+        }
+    }
+
+    .main-section {
+        margin-top: $section-margin;
+        margin-bottom: $section-margin;
     }
 }

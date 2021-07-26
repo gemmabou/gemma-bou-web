@@ -23,8 +23,8 @@ export default class Navbar extends Vue {
 
   get className() {
     let result = "";
-    if (this.direction == "column") {
-      result = "navbar-item-column";
+    if (this.direction) {
+      result = `navbar-item-${this.direction}`;
     }
     return result;
   }
@@ -50,6 +50,12 @@ export default class Navbar extends Vue {
   .bou-button {
     margin-top: 1.25rem !important;
     margin-bottom: 1.25rem !important;
+  }
+}
+.navbar-item-row {
+  .bou-button {
+    margin-left: 1.25rem !important;
+    margin-right: 1.25rem !important;
   }
 }
 </style>

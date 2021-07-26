@@ -17,14 +17,18 @@ $disabled-opacity: 0.65;
 
 // Shadows
 $shadow-color: $neutral90;
+
+$button-shadow-alpha: 0.08;
 $soft-shadow-alpha: 0.22;
 $strong-shadow-alpha: 0.26;
 
 $soft-shadow-color: rgba($shadow-color, $soft-shadow-alpha);
 $strong-shadow-color: rgba($shadow-color, $strong-shadow-alpha);
+$button-shadow-color: rgba($shadow-color, $button-shadow-alpha);
 
 $soft-shadow: 1.875rem 1.875rem 6.25rem $soft-shadow-color;
 $strong-shadow: 3.75rem 3.75rem 8.75rem $strong-shadow-color;
+$button-shadow: 1.875rem 1.875rem 3.75rem $button-shadow-color;
 
 // Borders
 $border-color: $neutral90;
@@ -56,7 +60,7 @@ $small-font-size: 0.7rem;
 // Line heights
 $xx-large-line-height: 3.5rem;
 $x-large-line-height: 2.75rem;
-$large-line-height: 2.25rem;
+$large-line-height: 2rem;
 $medium-line-height: 1.75rem;
 $small-line-height: 1rem;
 
@@ -76,6 +80,7 @@ $container-y-margin: 0.625rem;
 $container-x-margin: 0.938rem;
 $grip-gap: 1rem;
 $offset-margin: 2rem;
+$section-margin: 8.75rem;
 
 // Responsive breakpoints
 // types: xs / sm / md / lg

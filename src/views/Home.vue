@@ -2,19 +2,20 @@
   <bou-container>
     <TitleSection>
       <template v-slot:title>
-        Hi! I'm GEMMA BOU, <i>Product Designer</i>
+        <h1>Hi! I'm GEMMA BOU,</h1>
+        <h1><i>Product Designer</i></h1>
       </template>
       <template v-slot:description>
         <p>
           I’m a product designer living in Madrid with
-          <b>5 years of experience</b> in web and graphic design, who can
-          efficiently research, wireframe, and prototype a unique user
-          experience.
+          <b class="uppercase">5 years of experience</b> in web and graphic
+          design, who can efficiently research, wireframe, and prototype a
+          unique user experience.
         </p>
         <p>
           My background gives me the perspective to understand that I’m not a
           screen designer anymore,
-          <b>I’m a design maker and problem solver</b>, focused on user and
+          <i>I’m a design maker and problem solver</i>, focused on user and
           business needs.
         </p>
       </template>
@@ -33,12 +34,12 @@
         I have created a Design System for my posts on Instagram
       </template>
       <template v-slot:description>
-        <p>
+        <p class="body3">
           With the recent redesign of my own brand identity, I have decided to
           come back on Instagram publications. This is why I have created a
           Design System for my posts because this way I can
-          <b class="uppercase">speed up</b> the publications design process
-          and <b><i>focus on creating valuable content.</i></b>
+          <b class="uppercase">speed up</b> the publications design process and
+          <i>focus on creating valuable content.</i>
         </p>
       </template>
       <template v-slot:image>
@@ -59,18 +60,17 @@
 
     <MainSection imagePosition="right">
       <template v-slot:title>
-        I have designed <span class="uppercase">Real Food Market App</span>, through a
-        UX/UI <i>Case Study</i>
+        I have designed <span class="uppercase">Real Food Market App</span>,
+        through a UX/UI <i>Case Study</i>
       </template>
       <template v-slot:description>
-        <p>
+        <p class="body3">
           Using a <b class="uppercase">Design Sprint</b> methodology, I have
-          created this app finding new needs in the current food app
-          market. Analyzing the competence, extracting value insights doing
-          <b><i>user research</i></b> and organizing all the information with a
-          useful <b><i>architecture</i></b
-          >, I have designed a <b class="uppercase">new experience</b> for
-          buying fresh products.
+          created this app finding new needs in the current food app market.
+          Analyzing the competence, extracting value insights doing
+          <i>user research</i> and organizing all the information with a useful
+          <i>architecture</i>, I have designed a
+          <b class="uppercase">new experience</b> for buying fresh products.
         </p>
       </template>
       <template v-slot:image>
@@ -92,13 +92,12 @@
     <MainSection imagePosition="left">
       <template v-slot:title> FREELANCE at <i>Bocacalle</i> Studio </template>
       <template v-slot:description>
-        <p class="body2">
+        <p class="body3">
           After some years
           <b class="uppercase">working for external clients</b>, I decided to
           create and promote a Design Studio called Bocacalle with a business
           partner. Since that moment, we have been working in
-          <i><b>offer digital solutions</b></i> for little and medium
-          business.
+          <i><b>offer digital solutions</b></i> for little and medium business.
         </p>
       </template>
       <template v-slot:image>

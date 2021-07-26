@@ -28,12 +28,14 @@ export default class App extends Vue {
 </script>
 
 <style lang="scss">
+$mainPageMarginTop: $navbarHeight + 6.25rem;
+
 body {
   background-color: $primary1;
 }
 
 .main-page {
-  margin-top: $navbarHeight;
+  margin-top: $mainPageMarginTop;
 }
 
 @media (max-width: $sm-to-md-breakpoint) {

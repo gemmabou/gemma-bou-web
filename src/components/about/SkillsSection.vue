@@ -1,6 +1,6 @@
 <template>
-  <bou-row class="skills-section" verticalAlign="top">
-    <bou-col :md="6">
+  <bou-row class="main-section" verticalAlign="top">
+    <bou-col :md="5">
       <h2>UX skills</h2>
       <ul>
         <li v-for="(item, index) in uxSkills" :key="index">
@@ -9,7 +9,9 @@
         </li>
       </ul>
     </bou-col>
-    <bou-col :md="6">
+    <bou-col :md="1" />
+    <bou-col :md="1" class="bordered-left" />
+    <bou-col :md="5">
       <h2>UI skills</h2>
       <ul>
         <li v-for="(item, index) in uiSkills" :key="index">
@@ -33,7 +35,8 @@ export default class SkillsSection extends Vue {
 </script>
 
 <style lang="scss" scoped>
-.skills-section{
-    margin-top: 4.5rem;
+.bordered-left{
+  border-left: $normal-border;
+  height: 100%;
 }
 </style>

@@ -1,18 +1,12 @@
 <template>
   <!-- Desktop layout (screenWidht > sm) -->
   <bou-row v-if="!isMobileResolution" :spaced="true" :vertical-align="'center'">
-    <bou-col :md="5">
+    <bou-col :md="3">
       <slot name="image"></slot>
     </bou-col>
     <bou-col :md="1" />
-    <bou-col :md="6">
-      <bou-row :spaced="true">
-        <bou-col :lg="8">
-          <h1>
-            <slot name="title"></slot>
-          </h1>
-        </bou-col>
-      </bou-row>
+    <bou-col :md="8">
+      <slot name="title"></slot>
 
       <bou-row :spaced="true">
         <bou-col>
@@ -22,9 +16,7 @@
 
       <bou-row :spaced="true">
         <bou-col>
-          <p>
-            <bou-cv-button />
-          </p>
+          <bou-cv-button />
         </bou-col>
       </bou-row>
     </bou-col>
@@ -39,10 +31,8 @@
     <bou-col :xs="12">
       <slot name="description"></slot>
     </bou-col>
-    <bou-col :xs="12">
-      <p class="text-center">
-        <bou-cv-button />
-      </p>
+    <bou-col :xs="12" class="text-center">
+      <bou-cv-button />
     </bou-col>
     <bou-col :xs="2" />
     <bou-col :xs="8" class="image-container-xs">

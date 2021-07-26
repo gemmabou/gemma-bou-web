@@ -1,7 +1,7 @@
 <template>
   <!-- Desktop left layout (screenWidht > sm) -->
   <bou-row
-    class="main-row"
+    class="main-section"
     v-if="!isMobileResolution && imagePosition == 'left'"
     :spaced="true"
     :vertical-align="'center'"
@@ -31,7 +31,7 @@
   <!-- Desktop right layout (screenWidht > sm) -->
   <bou-row
     v-else-if="!isMobileResolution && imagePosition == 'right'"
-    class="main-row"
+    class="main-section"
     :spaced="true"
     :vertical-align="'center'"
   >
@@ -58,11 +58,11 @@
   </bou-row>
 
   <!-- Mobile layout (screenWidht < sm) -->
-  <bou-row v-else class="main-row" :spaced="true" :vertical-align="'top'">
+  <bou-row v-else class="main-section" :spaced="true" :vertical-align="'top'">
     <bou-col :xs="12">
-      <h1>
+      <h2>
         <slot name="title"></slot>
-      </h1>
+      </h2>
     </bou-col>
     <bou-col :xs="12">
       <slot name="description"></slot>
@@ -107,10 +107,7 @@ export default class MainSection extends Vue {
 </script>
 
 <style lang="scss">
-.main-row {
-  margin-top: 8.75rem;
-  margin-bottom: 8.75rem;
-
+.main-section {
   .view-more-button {
     margin-top: 2.5rem;
     margin-bottom: 2.5rem;

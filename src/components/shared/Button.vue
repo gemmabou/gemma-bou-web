@@ -64,7 +64,7 @@ $rotation: 12deg;
 $activeRotation: 1deg;
 
 @mixin button-active-rotation {
-  box-shadow: $strong-shadow;
+  box-shadow: $button-shadow;
   transform: rotate(-$activeRotation);
 
   .bou-inner-button {
@@ -115,7 +115,6 @@ $activeRotation: 1deg;
   &.active {
     @include button-active-rotation;
     @include button-active-background;
-    box-shadow: $soft-shadow;
   }
 
   &:hover:not(.active) {
@@ -137,7 +136,6 @@ $activeRotation: 1deg;
   }
 
   &:active:not(.active) {
-    box-shadow: $soft-shadow;
     @include button-active-background;
   }
 

@@ -1,9 +1,5 @@
 <template>
-  <figure
-    v-lazyLoad
-    :class="wrapperClassName"
-    v-bind:style="inlineStyles"
-  >
+  <figure v-lazyLoad :class="wrapperClassName" v-bind:style="inlineStyles">
     <ImageSpinner class="image__spinner" />
     <img :class="itemClassName" :data-url="source" :alt="alt" />
   </figure>
@@ -85,7 +81,7 @@ export default class LazyImage extends Vue {
     return {
       width: this.width ? `${this.width}px` : undefined,
       height: this.height ? `${this.height}px` : undefined,
-    }
+    };
   }
 }
 </script>
@@ -100,7 +96,15 @@ export default class LazyImage extends Vue {
     align-items: center;
     margin: 0;
 
+    &:after {
+      transition: all 0.8s ease-in-out;
+      opacity: 0;
+    }
+
     &.loaded {
+      &:after {
+        opacity: 1;
+      }
       .image {
         &__item {
           visibility: visible;

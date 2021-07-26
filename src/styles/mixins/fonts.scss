@@ -18,6 +18,14 @@
     font-family: "RestoraLightItalic";
 }
 
+@mixin medium-font {
+    font-family: "RestoraMedium";
+}
+
+@mixin medium-italic-font {
+    font-family: "RestoraMediumItalic";
+}
+
 // Text styles
 
 @mixin heading-1 {
@@ -29,7 +37,7 @@
 }
 
 @mixin heading-2 {
-    @include regular-font;
+    @include light-font;
 
     font-size: $x-large-font-size;
     letter-spacing: $small-letter-spacing;
@@ -37,7 +45,7 @@
 }
 
 @mixin heading-3 {
-    @include regular-font;
+    @include light-font;
 
     font-size: $large-font-size;
     line-height: $large-line-height;
