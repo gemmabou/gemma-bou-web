@@ -67,8 +67,8 @@ export default class Navbar extends Vue {
 <style lang="scss">
 .navbar-item-column {
   .bou-button {
-    margin-top: 1.25rem !important;
-    margin-bottom: 1.25rem !important;
+    margin-top: 2.25rem !important;
+    margin-bottom: 2.25rem !important;
   }
 }
 .navbar-item-row {
