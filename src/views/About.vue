@@ -12,13 +12,13 @@
           From my background in Art Direction,
           <b class="uppercase">I have learned</b> that it is not enough to be a
           great screen designer. The designer needs to
-          <b><i> understand the whole picture</i></b
-          >, including the business goals and the technical constraints, using
-          research methods based on the person that actually use the product.
-          Now I am a <b class="uppercase">design maker and problem solver</b>,
-          focused <b><i> on user and business needs</i></b> within an innovative
-          space, where my hard skills in design software and my soft skills in
-          emotional intelligence can shine.
+          <i> understand the whole picture</i>, including the business goals and
+          the technical constraints, using research methods based on the person
+          that actually use the product. Now I am a
+          <b class="uppercase">design maker and problem solver</b>, focused on
+          <i>user and business needs</i> within an innovative space, where my
+          hard skills in design software and my soft skills in emotional
+          intelligence can shine.
         </p>
       </template>
       <template v-slot:image>
