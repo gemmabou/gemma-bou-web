@@ -2,7 +2,7 @@
   <bou-container>
     <TitleSection>
       <template v-slot:title>
-        <h1>The EVOLUTION of Graphic, Web, UI, UX to <i>Product Designer</i></h1>
+        <h1>The <span class="uppercase">evolution</span> of Graphic, Web, UI, UX to <i>Product Designer</i></h1>
       </template>
       <template v-slot:description>
         <p>

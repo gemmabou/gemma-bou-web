@@ -4,6 +4,7 @@
       v-for="(item, index) in items"
       :key="index"
       :anchor="true"
+      :size="buttonSize"
       :label="item.displayName"
       :active="isItemActive(item.route)"
       @click="redirect(item.route)"
@@ -13,7 +14,8 @@
 </template>
 
 <script lang="ts">
-import { GenericFlexDirection, NavbarItem } from "@/types";
+import { GenericFlexDirection, GenericSize, NavbarItem, ScreenSize } from "@/types";
+import { getScreenSize } from "@/utils";
 import { Component, Vue, Prop } from "vue-property-decorator";
 
 @Component({})
@@ -25,6 +27,23 @@ export default class Navbar extends Vue {
     let result = "";
     if (this.direction) {
       result = `navbar-item-${this.direction}`;
+    }
+    return result;
+  }
+
+  get isMobileResolution() {
+    let result = false;
+    const screenSize = getScreenSize(this.windowWidth);
+    if (screenSize <= ScreenSize.sm) {
+      result = true;
+    }
+    return result;
+  }
+
+  get buttonSize() {
+    let result: GenericSize = 'default';
+    if(this.isMobileResolution) {
+      result = 'large';
     }
     return result;
   }

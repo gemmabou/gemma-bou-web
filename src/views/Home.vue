@@ -31,7 +31,7 @@
 
     <MainSection imagePosition="left">
       <template v-slot:title>
-        I have created a Design System for my posts on Instagram
+        I have created a <span class="uppercase">Design System</span> for my <i>posts</i> on Instagram
       </template>
       <template v-slot:description>
         <p class="body3">
@@ -90,7 +90,7 @@
     </MainSection>
 
     <MainSection imagePosition="left">
-      <template v-slot:title> FREELANCE at <i>Bocacalle</i> Studio </template>
+      <template v-slot:title> <span class="uppercase">Freelance</span> at <i>Bocacalle</i> Studio </template>
       <template v-slot:description>
         <p class="body3">
           After some years

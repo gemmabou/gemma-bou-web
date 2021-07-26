@@ -20,6 +20,7 @@
       <p class="view-more-button">
         <bou-button
           label="View more"
+          size="large"
           :anchor="true"
           :href="link"
           :targetBlank="true"
@@ -43,6 +44,7 @@
       <p class="view-more-button">
         <bou-button
           label="View more"
+          size="large"
           :anchor="true"
           :href="link"
           :targetBlank="true"
@@ -70,6 +72,7 @@
         <bou-button
           label="View more"
           :anchor="true"
+          size="large"
           :href="link"
           :targetBlank="true"
         />

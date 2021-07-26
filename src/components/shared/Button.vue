@@ -60,6 +60,9 @@ export default class Button extends Vue {
 </script>
 
 <style lang="scss">
+$defaultHeight: 3.5rem;
+$defaultWidth: 8.75rem;
+
 $rotation: 12deg;
 $activeRotation: 1deg;
 
@@ -91,10 +94,8 @@ $activeRotation: 1deg;
 
   transition: $hoverTransition;
 
-  min-height: 3.5rem;
-  min-width: 8.75rem;
-
-  //padding: 0.575rem 1.55rem;
+  min-height: $defaultHeight;
+  min-width: $defaultWidth;
 
   transform: rotate(-$rotation);
 
@@ -102,6 +103,16 @@ $activeRotation: 1deg;
   border-radius: 50%;
   color: $neutral90;
   text-decoration: none;
+
+  &.small {
+    min-height: $defaultHeight - 1rem;
+    min-width: $defaultWidth - 1rem;
+  }
+
+  &.large {
+    min-height: $defaultHeight + 0.25rem;
+    min-width: $defaultWidth + 1rem;
+  }
 
   &.disabled {
     opacity: 0.6;
@@ -148,7 +159,7 @@ $activeRotation: 1deg;
     right: 0;
     margin: auto;
     /* requires explicit height */
-    height: $medium-line-height; 
+    height: $medium-line-height;
     transform: rotate($rotation);
   }
 }
