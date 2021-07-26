@@ -12,8 +12,8 @@
           <b><i> understand the whole picture</i></b
           >, including the business goals and the technical constraints, using
           research methods based on the person that actually use the product.
-          Now I am a <b class="uppercase">design thinker and problem solver</b>,
-          focus <b><i> on user and business needs</i></b> within an innovative
+          Now I am a <b class="uppercase">design maker and problem solver</b>,
+          focused <b><i> on user and business needs</i></b> within an innovative
           space, where my hard skills in design software and my soft skills in
           emotional intelligence can shine.
         </p>

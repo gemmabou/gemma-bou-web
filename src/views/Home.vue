@@ -6,15 +6,15 @@
       </template>
       <template v-slot:description>
         <p>
-          I’m a product designer living in Madrid with the skills and
-          <b>5 years of experience</b> in web design and graphic design, who can
+          I’m a product designer living in Madrid with
+          <b>5 years of experience</b> in web and graphic design, who can
           efficiently research, wireframe, and prototype a unique user
           experience.
         </p>
         <p>
           My background gives me the perspective to understand that I’m not a
           screen designer anymore,
-          <b>I’m a design thinker and problem solver</b>, focus on user and
+          <b>I’m a design maker and problem solver</b>, focused on user and
           business needs.
         </p>
       </template>
@@ -30,14 +30,14 @@
 
     <MainSection imagePosition="left">
       <template v-slot:title>
-        I create a Design System for my posts on Instagram
+        I have created a Design System for my posts on Instagram
       </template>
       <template v-slot:description>
         <p>
           With the recent redesign of my own brand identity, I have decided to
-          came back on Instagram publications. This is why I have create a
+          come back on Instagram publications. This is why I have created a
           Design System for my posts because this way I can
-          <b class="uppercase">speed up</b> the publications designing process
+          <b class="uppercase">speed up</b> the publications design process
           and <b><i>focus on creating valuable content.</i></b>
         </p>
       </template>
@@ -59,13 +59,13 @@
 
     <MainSection imagePosition="right">
       <template v-slot:title>
-        I design <span class="uppercase">Real Food Market App</span>, through a
+        I have designed <span class="uppercase">Real Food Market App</span>, through a
         UX/UI <i>Case Study</i>
       </template>
       <template v-slot:description>
         <p>
-          Using a <b class="uppercase">Design Sprint</b> methodologie, I have
-          created this app finding new needs in the current buying food app
+          Using a <b class="uppercase">Design Sprint</b> methodology, I have
+          created this app finding new needs in the current food app
           market. Analyzing the competence, extracting value insights doing
           <b><i>user research</i></b> and organizing all the information with a
           useful <b><i>architecture</i></b
@@ -98,7 +98,7 @@
           create and promote a Design Studio called Bocacalle with a business
           partner. Since that moment, we have been working in
           <i><b>offer digital solutions</b></i> for little and medium
-          businesses.
+          business.
         </p>
       </template>
       <template v-slot:image>
