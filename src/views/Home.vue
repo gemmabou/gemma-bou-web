@@ -27,11 +27,19 @@
           borderOffset="se"
         ></bou-image>
       </template>
+      <template v-slot:imageXS>
+        <bou-image
+          source="/img/bou-main.jpg"
+          :shaped="true"
+          shape="se"
+        ></bou-image>
+      </template>
     </TitleSection>
 
     <MainSection imagePosition="left">
       <template v-slot:title>
-        I have created a <span class="uppercase">Design System</span> for my <i>posts</i> on Instagram
+        I have created a <span class="uppercase">Design System</span> for my
+        <i>posts</i> on Instagram
       </template>
       <template v-slot:description>
         <p class="body3">
@@ -50,11 +58,7 @@
         ></bou-image>
       </template>
       <template v-slot:imageXS>
-        <bou-image
-          source="/img/bou-section2XS.png"
-          shape="n"
-          borderOffset="sw"
-        ></bou-image>
+        <bou-image source="/img/bou-section2XS.png"></bou-image>
       </template>
     </MainSection>
 
@@ -81,16 +85,14 @@
         ></bou-image>
       </template>
       <template v-slot:imageXS>
-        <bou-image
-          source="/img/bou-section3XS.png"
-          shape="n"
-          borderOffset="se"
-        ></bou-image>
+        <bou-image source="/img/bou-section3XS.png"></bou-image>
       </template>
     </MainSection>
 
     <MainSection imagePosition="left">
-      <template v-slot:title> <span class="uppercase">Freelance</span> at <i>Bocacalle</i> Studio </template>
+      <template v-slot:title>
+        <span class="uppercase">Freelance</span> at <i>Bocacalle</i> Studio
+      </template>
       <template v-slot:description>
         <p class="body3">
           After some years
@@ -108,11 +110,7 @@
         ></bou-image>
       </template>
       <template v-slot:imageXS>
-        <bou-image
-          source="/img/bou-section4XS.png"
-          shape="n"
-          borderOffset="sw"
-        ></bou-image>
+        <bou-image source="/img/bou-section4XS.png"></bou-image>
       </template>
     </MainSection>
   </bou-container>

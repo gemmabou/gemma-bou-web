@@ -22,7 +22,7 @@
     </bou-col>
     <bou-col :xs="1" :sm="2" />
     <bou-col :xs="10" :sm="8" class="image-container-xs">
-      <slot name="image"></slot>
+      <slot name="imageXS"></slot>
     </bou-col>
   </bou-row>
 </template>

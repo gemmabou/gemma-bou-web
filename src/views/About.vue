@@ -2,7 +2,10 @@
   <bou-container>
     <TitleSection>
       <template v-slot:title>
-        <h1>The <span class="uppercase">evolution</span> of Graphic, Web, UI, UX to <i>Product Designer</i></h1>
+        <h1>
+          The <span class="uppercase">evolution</span> of Graphic, Web, UI, UX
+          to <i>Product Designer</i>
+        </h1>
       </template>
       <template v-slot:description>
         <p>
@@ -24,6 +27,9 @@
           shape="n"
           borderOffset="sw"
         ></bou-image>
+      </template>
+      <template v-slot:imageXS>
+        <bou-image source="/img/about.png"></bou-image>
       </template>
     </TitleSection>
     <SkillsSection :uiSkills="uiSkills" :uxSkills="uxSkills" />

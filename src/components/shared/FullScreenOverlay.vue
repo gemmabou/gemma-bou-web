@@ -104,7 +104,7 @@ $overlayColor: $overlay-gradient;
 
   .overlay-footer {
     position: relative;
-    top: 40%;
+    top: 25%;
     width: 100%;
   }
 }
