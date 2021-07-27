@@ -15,7 +15,7 @@
         <p>
           My background gives me the perspective to understand that I’m not a
           screen designer anymore,
-          I’m a <span class="uppercase">design maker and problem solver</span>, focused on <i>user and
+          I’m a <b class="uppercase">design maker and problem solver</b>, focused on <i>user and
           business</i> needs.
         </p>
       </template>
