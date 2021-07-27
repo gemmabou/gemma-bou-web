@@ -182,6 +182,10 @@ export default class About extends Vue {
       source: "/img/logos/vscode-logo.png",
       alt: "Visual Studio Code",
     },
+     {
+      source: "/img/logos/vue-logo.png",
+      alt: "Vue",
+    },
     {
       source: "/img/logos/github-logo.png",
       alt: "Github",
