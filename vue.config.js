@@ -1,4 +1,4 @@
-const title = "Gemma Bouzas Web";
+const title = "Gemma Bou Portfolio";
 
 module.exports = {
   css: {
