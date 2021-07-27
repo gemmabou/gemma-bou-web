@@ -36,7 +36,9 @@ export type DefaultIcons =
   | "Mail"
   | "Medium"
   | "Close"
-  | "Menu";
+  | "Menu"
+  | "Firma"
+  | "Github";
 
 export type NavbarItem = {
   displayName: string;

@@ -14,6 +14,8 @@ import Mail from "./icons/Mail.vue";
 import Medium from "./icons/Medium.vue";
 import Close from "./icons/Close.vue";
 import Menu from "./icons/Menu.vue";
+import Github from "./icons/Github.vue";
+import Figma from "./icons/Figma.vue";
 
 @Component({
   components: {
@@ -23,6 +25,8 @@ import Menu from "./icons/Menu.vue";
     Medium,
     Close,
     Menu,
+    Figma,
+    Github,
   },
 })
 export default class Icon extends Vue {

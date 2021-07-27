@@ -36,7 +36,7 @@
       </template>
     </TitleSection>
 
-    <MainSection imagePosition="left">
+    <MainSection imagePosition="left" link="https://medium.com/@gemmabou/creo-un-design-system-para-mis-publicaciones-en-instagram-2ad88432a620">
       <template v-slot:title>
         I have created a <span class="uppercase">Design System</span> for my
         <i>posts</i> on Instagram
@@ -62,7 +62,7 @@
       </template>
     </MainSection>
 
-    <MainSection imagePosition="right">
+    <MainSection imagePosition="right" link="https://medium.com/@gemmabou/dise%C3%B1o-real-food-market-app-8f5285825b35">
       <template v-slot:title>
         I have designed <span class="uppercase">Real Food Market App</span>,
         through a UX/UI <i>Case Study</i>
@@ -89,7 +89,7 @@
       </template>
     </MainSection>
 
-    <MainSection imagePosition="left">
+    <MainSection imagePosition="left" link="https://bocacalle-studio.com/">
       <template v-slot:title>
         <span class="uppercase">Freelance</span> at <i>Bocacalle</i> Studio
       </template>
