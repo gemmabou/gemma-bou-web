@@ -36,7 +36,7 @@
       </template>
     </TitleSection>
 
-    <MainSection imagePosition="left" link="https://medium.com/@gemmabou/creo-un-design-system-para-mis-publicaciones-en-instagram-2ad88432a620">
+    <MainSection imagePosition="left" link="https://medium.com/@gemmabou/creo-un-design-system-para-mis-publicaciones-en-instagram-920d1efc7b66">
       <template v-slot:title>
         I have created a <span class="uppercase">Design System</span> for my
         <i>posts</i> on Instagram
