@@ -44,6 +44,16 @@
     line-height: $x-large-line-height;
 }
 
+@mixin heading-2-xs {
+    @include light-font;
+
+    $fontIncreasement: 0.5rem;
+
+    font-size: $x-large-font-size + $fontIncreasement;
+    letter-spacing: $small-letter-spacing;
+    line-height: $x-large-line-height + $fontIncreasement;
+}
+
 @mixin heading-3 {
     @include light-font;
 

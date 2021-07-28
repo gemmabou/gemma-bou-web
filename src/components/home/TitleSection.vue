@@ -21,7 +21,7 @@
       <slot name="description"></slot>
     </bou-col>
     <bou-col :xs="1" :sm="2" />
-    <bou-col :xs="10" :sm="8" class="image-container-xs">
+    <bou-col :xs="10" :sm="8">
       <slot name="imageXS"></slot>
     </bou-col>
   </bou-row>
@@ -47,10 +47,6 @@ export default class TitleSection extends Vue {
 
 <style lang="scss" scoped>
 .title-section {
-  margin-bottom: $section-margin;
-}
-
-.image-container-xs {
-  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
 }
 </style>

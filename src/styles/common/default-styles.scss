@@ -20,7 +20,7 @@ html {
 
     @media (max-width: $sm-to-md-breakpoint) {
         h1 {
-            @include heading-2;
+            @include heading-2-xs;
         }
     }
 
@@ -56,7 +56,7 @@ html {
     }
     
     li {
-        @include body-3;
+        @include body-2;
     }
 
     b {
