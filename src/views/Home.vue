@@ -42,7 +42,7 @@
         <i>posts</i> on Instagram
       </template>
       <template v-slot:description>
-        <p class="body3">
+        <p>
           With the recent redesign of my own brand identity, I have decided to
           come back on Instagram publications. This is why I have created a
           Design System for my posts because this way I can
@@ -68,7 +68,7 @@
         through a UX/UI <i>Case Study</i>
       </template>
       <template v-slot:description>
-        <p class="body3">
+        <p>
           Using a <b class="uppercase">Design Sprint</b> methodology, I have
           created this app finding new needs in the current food app market.
           Analyzing the <i>competence</i>, extracting value insights doing
@@ -94,7 +94,7 @@
         <span class="uppercase">Freelance</span> at <i>Bocacalle</i> Studio
       </template>
       <template v-slot:description>
-        <p class="body3">
+        <p>
           After some years
           <b class="uppercase">working for external clients</b>, I decided to
           create and promote a Design Studio called Bocacalle with a business

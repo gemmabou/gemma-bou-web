@@ -18,6 +18,12 @@ html {
         font-weight: normal;
     }
 
+    @media (max-width: $sm-to-md-breakpoint) {
+        h1 {
+            @include heading-2;
+        }
+    }
+
     h2 {
         @include heading-2;
         margin: 0;
