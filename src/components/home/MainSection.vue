@@ -43,7 +43,7 @@
       <slot name="description"></slot>
       <p class="view-more-button">
         <bou-button
-          label="View more"
+          label="See more"
           size="large"
           :anchor="true"
           :href="link"
