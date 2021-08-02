@@ -19,7 +19,7 @@
       <slot name="description"></slot>
       <p class="view-more-button">
         <bou-button
-          label="View more"
+          label="see more"
           size="large"
           :anchor="true"
           :href="link"
@@ -43,7 +43,7 @@
       <slot name="description"></slot>
       <p class="view-more-button">
         <bou-button
-          label="See more"
+          label="see more"
           size="large"
           :anchor="true"
           :href="link"
@@ -70,7 +70,7 @@
       <slot name="description"></slot>
       <p class="view-more-button text-center">
         <bou-button
-          label="View more"
+          label="see more"
           :anchor="true"
           size="large"
           :href="link"
