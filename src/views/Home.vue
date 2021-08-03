@@ -8,15 +8,15 @@
       <template v-slot:description>
         <p>
           I’m a product designer living in Madrid with
-          <b class="uppercase">5 years experience</b> in web and graphic
-          design, who can efficiently <i>research, wireframe, and prototype</i> a
-          unique user experience.
+          <b class="uppercase">5 years experience</b> in web and graphic design,
+          who can efficiently <i>research, wireframe, and prototype</i> a unique
+          user experience.
         </p>
         <p>
           My background gives me the perspective to understand that I’m not a
-          screen designer anymore,
-          I’m a <b class="uppercase">design maker and problem solver</b>, focused on <i>user and
-          business</i> needs.
+          screen designer anymore, I’m a
+          <b class="uppercase">design maker and problem solver</b>, focused on
+          <i>user and business</i> needs.
         </p>
       </template>
       <template v-slot:image>
@@ -36,7 +36,10 @@
       </template>
     </TitleSection>
 
-    <MainSection imagePosition="left" link="https://medium.com/@gemmabou/creo-un-design-system-para-mis-publicaciones-en-instagram-920d1efc7b66">
+    <MainSection
+      imagePosition="left"
+      link="https://medium.com/@gemmabou/creo-un-design-system-para-mis-publicaciones-en-instagram-920d1efc7b66"
+    >
       <template v-slot:title>
         I have created a <span class="uppercase">Design System</span> for my
         <i>brand identity</i> using Figma
@@ -62,7 +65,10 @@
       </template>
     </MainSection>
 
-    <MainSection imagePosition="right" link="https://medium.com/@gemmabou/dise%C3%B1o-real-food-market-app-8f5285825b35">
+    <MainSection
+      imagePosition="right"
+      link="https://medium.com/@gemmabou/dise%C3%B1o-real-food-market-app-8f5285825b35"
+    >
       <template v-slot:title>
         I have designed <span class="uppercase">Real Food Market App</span>,
         through a UX/UI <i>Case Study</i>
@@ -95,11 +101,10 @@
       </template>
       <template v-slot:description>
         <p>
-          After some years
-          <b class="uppercase">working for external clients</b>, I decided to
-          create and promote a Design Studio called Bocacalle with a business
-          partner. Since that moment, we have been working in
-          <i>offer digital solutions</i> for little and medium business.
+          I have combined these years of work with
+          <b class="uppercase">being a freelance</b>, at Bocacalle Studio, where
+          I have designed from <i>web pages and applications</i>, to <i>rebrandings</i> and
+          <i>social media</i> content, also I have done <i>photographic sessions</i>.
         </p>
       </template>
       <template v-slot:image>
