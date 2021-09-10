@@ -85,7 +85,7 @@ export default class About extends Vue {
     {
       title: "Responsive",
       description:
-        "Experience with mobile-first and desktop-first design if needed.",
+        "Experience with mobile-first and desktop-first design.",
     },
     {
       title: "Design System",
