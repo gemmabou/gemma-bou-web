@@ -131,7 +131,7 @@ export default class About extends Vue {
       alt: "Zeroheight",
     },
     {
-      source: "/img/logos/notion-logo.png",
+      source: "/img/logos/notion-logo.svg",
       alt: "Notion",
     },
     {
