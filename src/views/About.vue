@@ -3,8 +3,8 @@
     <TitleSection>
       <template v-slot:title>
         <h1>
-          The <span class="uppercase">evolution</span> of Graphic, Web, UI, UX
-          to <i>Product Designer</i>
+          The <span class="uppercase">evolution</span> of Graphic Designer,
+          to <i>UX & UI Designer</i>
         </h1>
       </template>
       <template v-slot:description>
@@ -55,7 +55,7 @@ export default class About extends Vue {
   uxSkills: SkillItem[] = [
     {
       title: "Methodologies",
-      description: "D. Thinking, Kanban, D. Sprint, Scrum.",
+      description: "Design Thinking, Kanban, Design Sprint, Scrum.",
     },
     {
       title: "Business Analysis",
@@ -131,9 +131,14 @@ export default class About extends Vue {
       alt: "Zeroheight",
     },
     {
+      source: "/img/logos/notion-logo.png",
+      alt: "Notion",
+    },
+    {
       source: "/img/logos/airtable-logo.png",
       alt: "Airtable",
     },
+  
     {
       source: "/img/logos/asana-logo.png",
       alt: "Asana",
