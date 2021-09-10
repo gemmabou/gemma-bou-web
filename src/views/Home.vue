@@ -3,11 +3,11 @@
     <TitleSection>
       <template v-slot:title>
         <h1>Hi! I'm GEMMA BOU,</h1>
-        <h1><i>Product Designer</i></h1>
+        <h1><i>UX & UI Designer</i></h1>
       </template>
       <template v-slot:description>
         <p>
-          I’m a product designer living in Madrid with
+          I’m a UX/UI designer living in Madrid with
           <b class="uppercase">5 years experience</b> in web and graphic design,
           who can efficiently <i>research, wireframe, and prototype</i> a unique
           user experience.
