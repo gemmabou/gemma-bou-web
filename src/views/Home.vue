@@ -75,8 +75,7 @@
       </template>
       <template v-slot:description>
         <p>
-          Using a <b class="uppercase">Design Sprint</b> methodology, I have
-          created this app finding new needs in the current food app market.
+          I have created this app finding new needs in the current food app market.
           Analyzing the <i>competence</i>, extracting value insights doing
           <i>user research</i> and organizing all the information with a useful
           <i>architecture</i>, I have designed a
